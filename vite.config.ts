@@ -1,6 +1,4 @@
 // vite.config.ts
 import { defineConfig } from 'vite'
 
-export default defineConfig({
-    base: '/Voicevox-Cognitive-Shuffle/', // 👈 GitHub PagesのURLに合わせる
-  })
+export default defineConfig({})
