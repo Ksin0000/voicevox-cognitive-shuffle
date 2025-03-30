@@ -23,4 +23,20 @@ dist-ssr
 *.sln
 *.sw?
 
+# Environment variables 使ってないけど一応
+.env
+.env.local
+.env.*.local
+
+# Cache directories
+.cache
+.npm
+.eslintcache
+
+# Test coverage
+coverage/
+
+# Build artifacts
+*.tsbuildinfo
+
 dist/
