@@ -1,4 +1,6 @@
 // vite.config.ts
 import { defineConfig } from 'vite'
 
-export default defineConfig({})
+export default defineConfig({
+    base: '/voicevox-cognitive-shuffle/',
+})
