@@ -2,6 +2,7 @@ import './style.css'
 import { setupCounter } from './counter.ts'
 import { textbox } from './textbox.ts'
 
+
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
     <h1>Voicevox Cognitive Shuffle</h1>
@@ -12,9 +13,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       <input type="text" id="textInput" placeholder="テキストを入力" />
       <button id="submitText" type="button">送信</button>
     </div>
-    <p class="read-the-docs">
-      Click on the Vite and TypeScript logos to learn more
-    </p>
+    <div id="debug-output" class="debug-area"></div>
   </div>
 `
 
