@@ -1,4 +1,4 @@
-import { debugLog } from "./debug.ts";
+import { debugLog } from "./debug";
 
 export function textbox(
   submitText: HTMLButtonElement,

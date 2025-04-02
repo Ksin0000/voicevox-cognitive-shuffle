@@ -1,6 +1,6 @@
 import "./style.css";
-import { setupCounter } from "./counter.ts";
-import { textbox } from "./textbox.ts";
+import { setupCounter } from "./counter";
+import { textbox } from "./textbox";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
